@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<title>Sign Up Form Version 2</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="background-container">
+			<div class="logo-container">
+				<img src="./images/odin-lined.png" alt="odin">
+				<div>ODIN</div>
+			</div>
+		</div>
+		<div class="main-right">
+			<div class="hero-container">
+				<h3>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. <p>Sign up <em>now</em> to get started.</p>
+				</h3>
+				<h3>You know you want to.</h3>
+			</div>
+			<h3>Let's do this!</h3>
+			<form action="" id="form">
+				<p>
+					<label for="first-name">FIRST NAME</label>
+					<input type="text" id="first-name" name="first-name">
+					<label for="email">EMAIL</label>
+					<input type="email" id="email" name="email" placeholder="joeblogs@gmail.com">
+					<label for="password">PASSWORD</label>
+					<input type="password" id="password" name="password">
+				</p>
+
+				<p>
+					<label for="last-name">LAST NAME</label>
+					<input type="text" id="last-name" name="last-name">
+					<label for="phone">PHONE NUMBER</label>
+					<input class="error" type="tel" id="phone" name="phone" pattern="^\+|[^a-zA-Z]{6,}$">
+					<label for="confirm">CONFIRM PASSWORD</label>
+					<input type="password" id="confirm" name="confirm">
+				</p>
+
+			</form>
+			<div class="button-container">
+				<button form="form">Create Account</button>
+				<p>Already have an account? <a href=''>Log in</a></p>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
